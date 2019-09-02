@@ -23,13 +23,15 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         $(document).ready(function () {
+            AOS.init();
+
             $('a').click(function () {
                 $('html, body').animate({
                     scrollTop: $($.attr(this, 'href')).offset().top
                 }, 500);
                 return false;
             });
-            AOS.init();
+        
         });
     </script>
 </head>
