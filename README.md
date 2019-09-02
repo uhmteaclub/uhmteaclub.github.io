@@ -1,3 +1,3 @@
-# uhteatest.github.io
+# uhmteaclub.github.io
 
-#http://uhteatest.github.io/index2.html
+http://uhmteaclub.github.io
