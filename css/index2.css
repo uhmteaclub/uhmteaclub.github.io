@@ -26,11 +26,15 @@
     color: rgb(255, 136, 0);
     font-size: 5vw;
     margin: 2vw;
+    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+    padding-bottom: 5vh;
 }
 
 .card1 {
     margin-top: 15vh;
 }
+
+
 
 .font1 {
     font-family: 'Caveat Brush', cursive;
@@ -90,6 +94,8 @@
     .header1{
         font-size: 40px !important;
     }
-
+    .card1 {
+        margin-top: 10vh;
+    }
 
 }
