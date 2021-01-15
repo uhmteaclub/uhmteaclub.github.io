@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UH Manoa Tea Club</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Nanum+Brush+Script|Notable&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index2.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        $(document).ready(function () {
+            AOS.init();
+
+            $('a').click(function () {
+                $('html, body').animate({
+                    scrollTop: $($.attr(this, 'href')).offset().top
+                }, 500);
+                return false;
+            });
+
+        });
+    </script>
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="index.html#top">UH Manoa Tea Club</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html#events">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html#contacts">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="card bg-dark text-white">
+        <img src="img/20190420_091530 (1).jpg" class="card-img card-img1" alt="jakuan garden">
+        <div class="card-img-overlay card1">
+            <img data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-duration="1500"
+                 class="logo mx-auto d-block" src="img/U.jpg">
+            <br>
+            <h1 data-aos="fade-down" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-duration="1500"
+                class="header1 text-center">UH Manoa<br>Tea Club</h1>
+
+            <p data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-duration="1500" class="text-center font1">
+                The latest in Jakuan Tea Club news!</p>
+        </div>
+    </div>
+    <div id="about">
+
+        <div class="row row1">
+            <div data-aos="fade-right" data-aos-easing="ease-in-back" data-aos-duration="1000" class="col my-auto">
+                <h3 class="header2 text-center">Hatsudate 2021</h3>
+
+                <p class="aboutp font3 text-justify">Hatsudate is an annual event for celebrating the New Year. Usually,
+                    UH Tea Club hosts a Tea Ceremoney where guests come to partake in tea and an Osechi meal. Unfortunately,
+                    the pandemic has put a halt to gatherings of more than 5 people, so this year Hatsudate was hosted remotely.
+                    Click below to view UH Tea Club's first remote tea ceremoney!
+                    <br>
+                    <a href="https://www.youtube.com/watch?app=desktop&v=qO_O5dEZ3t4&fbclid=IwAR1bVKSvV6ITjdbZog2DEXQiQkyCHzFINLlKHrBh3IKzG4Otd4BdEaqN1LM" class="btn btn-outline-primary btn-lg">Click Here!</a>
+                </p>
+                <p class="font3 text-right">January 15, 2021</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
